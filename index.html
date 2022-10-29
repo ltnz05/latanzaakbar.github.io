@@ -25,6 +25,10 @@
 </style>
 <!-- akhir css -->
 
+<!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- akhir aos -->
+
     <title>My Portfolio | Latanza Akbar Fadilah</title>
   </head>
   <body id="home">
@@ -78,10 +82,10 @@
       </div>
     </div>
     <div class="row justify-content-center fs-5 text-center">
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nemo velit consequuntur architecto odit vitae rerum voluptatem numquam tempora blanditiis quam facere dolorem, error beatae! Ut doloremque repellendus esse, voluptas error ipsum inventore fugiat atque, nihil, consectetur officia, obcaecati facilis.</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4"  data-aos="fade-left" data-aos-delay="200">
         <p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Dolor dicta ipsa sed quasi nihil repudiandae fugit nulla tenetur beatae minima. Repellendus placeat dolor quasi id, totam inventore accusantium dolorum fugit minus dolorem neque eum tempora?</p>
       </div>
     </div>
@@ -101,7 +105,7 @@
     </div>
       <div class="row justify-content-center">
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-down" data-aos-delay="450"> 
             <img src="img/grizzly.jpeg" class="card-img-top" alt="aza 1">
             <div class="card-body">
               <p class="card-text">aza</p>
@@ -109,7 +113,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-down" data-aos-delay="500">
             <img src="img/we-bare-bears2.jpeg" class="card-img-top" alt="tata 1">
             <div class="card-body">
               <p class="card-text">tata</p>
@@ -117,7 +121,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-down" data-aos-delay="600">
             <img src="img/panda.jpeg" class="card-img-top" alt="aza 2">
             <div class="card-body">
               <p class="card-text">aza</p>
@@ -125,7 +129,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-down" data-aos-delay="500">
             <img src="img/ice-bear.jpeg" class="card-img-top" alt="tata 2">
             <div class="card-body">
               <p class="card-text">tata</p>
@@ -133,7 +137,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-down" data-aos-delay="600">
             <img src="img/chloe.jpeg" class="card-img-top" alt="tata 3">
             <div class="card-body">
               <p class="card-text">tata</p>
@@ -219,5 +223,9 @@
       .catch(error => console.error('Error!', error.message))
   })
 </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
